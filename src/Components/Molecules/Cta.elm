@@ -1,4 +1,4 @@
-module Components.Slices.Cta exposing (ctaChapter, ctaSlice)
+module Components.Molecules.Cta exposing (ctaChapter, ctaSlice)
 
 import Conf exposing (constants)
 import Css

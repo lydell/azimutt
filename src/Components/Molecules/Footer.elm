@@ -1,4 +1,4 @@
-module Components.Organisms.Footer exposing (footerChapter, footerSlice)
+module Components.Molecules.Footer exposing (footerChapter, footerSlice)
 
 import Components.Atoms.Icon as Icon
 import Conf exposing (constants)

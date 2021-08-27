@@ -1,9 +1,9 @@
 module PagesComponents.Home_.View exposing (viewHome)
 
-import Components.Organisms.Footer exposing (footerSlice)
-import Components.Slices.Cta exposing (ctaSlice)
-import Components.Slices.Feature exposing (featureListeSlice, featureSlice)
-import Components.Slices.Hero exposing (heroSlice)
+import Components.Molecules.Footer exposing (footerSlice)
+import Components.Molecules.Cta exposing (ctaSlice)
+import Components.Molecules.Feature exposing (featureListeSlice, featureSlice)
+import Components.Molecules.Hero exposing (heroSlice)
 import Css.Global
 import Html exposing (Html, div)
 import Html.Attributes exposing (class)

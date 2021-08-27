@@ -1,4 +1,4 @@
-module Components.Slices.Feature exposing (featureChapter, featureListeSlice, featureSlice)
+module Components.Molecules.Feature exposing (featureChapter, featureListeSlice, featureSlice)
 
 import Components.Atoms.Icon as Icon
 import Css

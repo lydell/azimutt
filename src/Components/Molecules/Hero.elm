@@ -1,8 +1,8 @@
-module Components.Slices.Hero exposing (heroChapter, heroSimpleSlice, heroSlice)
+module Components.Molecules.Hero exposing (heroChapter, heroSimpleSlice, heroSlice)
 
 import Components.Atoms.Dots as Dots
 import Components.Atoms.Icon as Icon
-import Components.Organisms.Header exposing (headerSlice)
+import Components.Molecules.Header exposing (headerWebsite)
 import Css
 import ElmBook.Chapter exposing (chapter, renderComponentList)
 import ElmBook.ElmCSS exposing (Chapter)
@@ -18,7 +18,7 @@ import Tailwind.Utilities as Tw
 heroSlice : Html msg
 heroSlice =
     div []
-        [ headerSlice "/logo.png"
+        [ headerWebsite "/logo.png"
         , div [ css [ Tw.relative ] ]
             [ div [ css [ Tw.absolute, Tw.inset_x_0, Tw.bottom_0, Tw.h_1over2 ] ] []
             , div [ css [ Tw.max_w_7xl, Tw.mx_auto, Bp.lg [ Tw.px_8 ], Bp.sm [ Tw.px_6 ] ] ]
