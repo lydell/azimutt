@@ -10,6 +10,7 @@ import Components.Molecules.Header exposing (headerChapter)
 import Components.Molecules.Cta exposing (ctaChapter)
 import Components.Molecules.Feature exposing (featureChapter)
 import Components.Molecules.Hero exposing (heroChapter)
+import Components.Organisms.Modal exposing (modalChapter)
 import Css.Global exposing (global)
 import ElmBook exposing (withChapterGroups, withComponentOptions, withThemeOptions)
 import ElmBook.Chapter exposing (chapter, render)
@@ -30,7 +31,7 @@ main =
         |> withChapterGroups
             [ ( "", [ docs ] )
             , ( "Atoms", [ linkChapter, buttonChapter, iconChapter, dotsChapter ] )
-            , ( "Organisms", [ searchChapter ] )
+            , ( "Organisms", [ searchChapter, modalChapter ] )
             , ( "Molecules", [ heroChapter, featureChapter, ctaChapter , headerChapter,footerChapter] )
             ]
 
